@@ -1,0 +1,27 @@
+{
+  "name": "gestion_produit_node_mysql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "express, mysql2, sequelize, jsonwebtoken, bcrypt, joi, dotenv, multer, nodemon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "API REST gestion de produits",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "mysql2": "^3.18.2",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.7"
+  }
+}
